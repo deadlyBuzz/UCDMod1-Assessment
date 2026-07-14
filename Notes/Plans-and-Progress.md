@@ -19,6 +19,8 @@ Plan:
 ```plantuml
 @startgantt
     project starts 2026-07-08
+    today is coloured in #AAFFAA
+    [<color:red>Submission Deadline] happens at 2026-07-22 and is coloured in red
     [Develop Content] as [T1] starts 2026-07-08 and ends at 2026-07-12
     [Outline Structure] as [T2] starts 2026-07-08 and requires 3 days
     [T2] pauses at 2026-07-09 to 2026-07-11
@@ -26,7 +28,20 @@ Plan:
     [T2] --> [T3]
     [Stylesheet] as [T4]starts at [T3]'s end and requires 2 days
     [Update and Adjust] as [T5] starts at [T4]'s end
-    [Document outline] starts at [T1]'s start and ends 2 days after [T5]'s end
+    [Validate HTML] as [T6] starts at [T5]'s Start
+    [Validate CSS] as [T7] starts at [T6]'s end
+    [Document outline] starts at [T1]'s start and ends 2 days after [T7]'s end
+
+
+    [T1] is 90% complete
+    [T2] is 60% complete
+    [T3] is 0% complete
+    [T4] is 0% complete
+    [T5] is 0% complete
+    [T6] is 0% complete
+    [T7] is 0% complete
+    [Document outline] is 10% complete
+
 @endgantt
 ```
 
