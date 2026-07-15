@@ -12,7 +12,8 @@ The Brief can be explained as:
     - Comedy 
     - Any other topic that provides substantial, relevant, and clearly structured content
 
-For this, I think I will use "Star Trek".
+### Website Goal
+To probide an accessible responsive static website that conveys a point of interest for me that I can publish.
 
 Plan:
 ---
@@ -20,33 +21,36 @@ Plan:
 @startgantt
     project starts 2026-07-08
     today is coloured in #AAFFAA
-    [<color:red>Submission Deadline] happens at 2026-07-22 and is coloured in red
+    [<color:red>Submission Deadline] as [M1] happens at 2026-07-25 and is coloured in red
     [Develop Content] as [T1] starts 2026-07-08 and ends at 2026-07-12
     [Outline Structure] as [T2] starts 2026-07-08 and requires 3 days
     [T2] pauses at 2026-07-09 to 2026-07-11
     [Code Index.HTML] as [T3] starts at [T1]'s end and requires 2 days
     [T2] --> [T3]
-    [Stylesheet] as [T4]starts at [T3]'s end and requires 2 days
+    [Stylesheet] as [T4] starts at [T3]'s end and requires 2 days
     [Update and Adjust] as [T5] starts at [T4]'s end
-    [Validate HTML] as [T6] starts at [T5]'s Start
+    [Validate HTML] as [T6] starts at [T5]'s end
     [Validate CSS] as [T7] starts at [T6]'s end
-    [Document outline] starts at [T1]'s start and ends 2 days after [T7]'s end
+    
+    [Contingency] as [T8] Starts at [T7]'s end and ends at [M1]'s start
+    [Document outline] starts at [T1]'s start and ends at [M1]'s start
 
 
-    [T1] is 90% complete
-    [T2] is 60% complete
-    [T3] is 0% complete
+    [T1] is 95% complete
+    [T2] is 95% complete
+    [T3] is 10% complete
     [T4] is 0% complete
     [T5] is 0% complete
     [T6] is 0% complete
     [T7] is 0% complete
+    [T8] is 0% complete
     [Document outline] is 10% complete
 
 @endgantt
 ```
-
-Star Trek
-Why I love the Enterprise
+## Goal
+to Create a Static web page as a homage to Star Trek.
+The Goal is to provide a website that meets all of the criteria for the module 1 assessment for the UCD Full Stack Development course.
 
 Home:   The home landing page. Index.html
 About:  About me.
@@ -135,12 +139,68 @@ To maintain the Status Quo, Kirk (Not a scientist or Doctor) develops a Miracle 
 In the Episode "The Apple" The crew of the enterprise encounter a race of innocent child-like beings who are being 'Ruled' by a computer ruler.
 At the end of the episide, Kirk disobeys the non interference prime directive and destroys the computer before telling the people (who don't know how to rule themselves and are full of sorrow at the end of their civilisation) that they are to Celebrate, they are all free, before Setting off to the stars on the starship for another episode.
 
+### Reconfigure the power couplings
+When the next genertion was started in 1987, the production crew took a much more realistic view of the Science of Star trek and had scientific advisors on-board.
+The Warp Engines were based on a theory by Miguel Alcubierre in 1994 and the physics behind this were used in the Series, but with some poetic license based on what wasn't known.
+
+#### Heisenberg Compensators
+Heisenbergs Uncertainty Principle states how you cannot measure the exact location and Speed of a particle at the same time.  Once you measure one, the other becomes fuzzy.  This is a big hindrance to a Transporter, which "Teleports" people and equipment instantaneously across space across a beam, one atom at a time.
+The answer was to refer to a fictional device called a "Heisenberg compensator" during episedes where the transporter would malfuntion, but the device was simply a plot device and nobody had a clue how it would work.
+The Special effects team would get calls asking "How does the Heisenberg Compensators work?" and they would answer "They work Just fine, thank you" (Ref Youtube)[https://www.youtube.com/watch?v=ldZ0KAtVZqc&t=109s]
+
+#### Self Sealing Stem Bolts
+Used, again as a plot device during an episode of Star-trek Deep Space nine called "Progress" as a comodity to be traded and even a prop was developed for the device, but nobody knows what they actually are.
+
+#### Ultimate Engineering Fix
+When the Enterprise is in trouble and things aren't working, Geordi LaForge can often be found mentioning how he needs to "reconfigure the power couplings" as a fix.  This is used often in the show, in battle or during investigations.
+Reading between the lines, this is a fancy way of saying "Turn it off and on again"
+
+## Assessment:
+
+Students should follow this structure exactly.
+
+**Why this matters**
+
+This order mirrors how assessors will review projects. Following it keeps demos focused and efficient.
+
+### 1\. Project Overview (30–45 seconds)
+
+- What the site is  
+- Who it is for  
+- What problem it solves
+
+---
+
+### 2\. Live Demo (2–3 minutes)
+
+- Homepage layout  
+- Navigation  
+- Responsive behaviour  
+- Visual consistency
+
+---
+
+### 3\. Accessibility Mention (30–45 seconds)
+
+- Keyboard navigation  
+- Semantic HTML  
+- Any accessibility improvements made
+
+---
+
+### 4\. GitHub Repository (1 minute)
+
+- Repository structure  
+- Commit history  
+- README presence (if applicable)
+
 ## Site Map
 ```plantuml
 @startmindmap site map
 * Website Home
   ** Header
     *** Logo
+    *** Title
     *** NavBar
       **** Home
       **** About
@@ -180,4 +240,146 @@ At the end of the episide, Kirk disobeys the non interference prime directive an
 
 @endmindmap
 ```
+
+# AI Refrences
+AI was used extensively for the development of this project.  I used Google Gemini Search to provide ideas and to fact check some of the items i already had in my head.
+
+The following is a detailed list of references where AI was used:
+
+## Toaster popup
+
+>[!note] toaster css with flexbox no javascript
+> Most of the results through a raw google search provided only bootstrap or Javascript powered solutions so I asked Google Gemini.
+
+This prompt provided the following code:
+```HTML
+<!-- Toast Container positioned at the bottom-right of the screen -->
+<div class="toast-container">
+  
+  <!-- Success Toast -->
+  <div class="toast toast-success">
+    <div class="toast-icon">✓</div>
+    <div class="toast-content">
+      <p class="toast-title">Success</p>
+      <p class="toast-message">Your changes have been saved successfully.</p>
+    </div>
+    <button class="toast-close" onclick="this.parentElement.style.display='none'">×</button>
+  </div>
+
+  <!-- Error Toast -->
+  <div class="toast toast-error">
+    <div class="toast-icon">✕</div>
+    <div class="toast-content">
+      <p class="toast-title">Error</p>
+      <p class="toast-message">An error occurred while uploading your file.</p>
+    </div>
+    <button class="toast-close" onclick="this.parentElement.style.display='none'">×</button>
+  </div>
+
+</div>
+```
+
+```css
+/* Container for stacking multiple toasts */
+.toast-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px; /* Space between notifications */
+  z-index: 9999;
+  font-family: sans-serif;
+}
+
+/* Individual Toast Structure using Flexbox */
+.toast {
+  display: flex;
+  align-items: center; /* Vertically centers the icon, text, and close button */
+  width: 340px;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  background-color: #fff;
+  color: #333;
+  
+  /* CSS Slide-in Animation */
+  animation: slideIn 0.3s ease-out forwards;
+}
+
+/* Flexbox Layout Internal Parts */
+.toast-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 14px;
+  flex-shrink: 0; /* Prevents icon from shrinking if text is long */
+}
+
+.toast-content {
+  flex-grow: 1; /* Forces the text area to fill available horizontal space */
+}
+
+.toast-title {
+  margin: 0 0 4px 0;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.toast-message {
+  margin: 0;
+  font-size: 13px;
+  color: #666;
+}
+
+.toast-close {
+  background: none;
+  border: none;
+  font-size: 18px;
+  color: #999;
+  cursor: pointer;
+  padding: 0 0 0 10px;
+  flex-shrink: 0;
+}
+
+.toast-close:hover {
+  color: #444;
+}
+
+/* Toast Theme Variants */
+.toast-success {
+  border-left: 5px solid #2ecc71;
+}
+.toast-success .toast-icon {
+  color: #2ecc71;
+}
+
+.toast-error {
+  border-left: 5px solid #e74c3c;
+}
+.toast-error .toast-icon {
+  color: #e74c3c;
+}
+
+/* Slide-in Keyframe from the Right side */
+@keyframes slideIn {
+  from {
+    transform: translateX(110%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+```
+
+## Introduction Paragraph
+I was struggling to try and develop a clean and concise introduction to star trek.  My Passion is prohibiting me from writing cleanly so I asked Google Gemini:
+
+>[!note] give me a brief introduction to star trek to include as a paragraph
+> Created by Gene Roddenberry, Star Trek is an iconic sci-fi franchise set in a hopeful future where humanity has overcome poverty, war, and greed. Centered on the space exploration armada known as Starfleet, the stories follow diverse crews traveling the galaxy in vessels like the USS Enterprise. Their mission is to seek out new life, expand Federation ideals, and boldly go where no one has gone before.
 

@@ -1,0 +1,154 @@
+<mxfile host="Electron" pages="4">
+  <diagram name="Page-1" id="TuugLDy6p6cTq1pxgG6s">
+    <mxGraphModel dx="1414" dy="961" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pQ-ffOLj7HxuD_XCjp-8-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="100" width="650" x="70" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pQ-ffOLj7HxuD_XCjp-8-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="LOGO" vertex="1">
+          <mxGeometry height="60" width="120" x="110" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pQ-ffOLj7HxuD_XCjp-8-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="NAVBAR" vertex="1">
+          <mxGeometry height="60" width="230" x="470" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pQ-ffOLj7HxuD_XCjp-8-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Title" vertex="1">
+          <mxGeometry height="30" width="60" x="320" y="95" as="geometry" />
+        </mxCell>
+        <mxCell id="pQ-ffOLj7HxuD_XCjp-8-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Intro&lt;div&gt;Space - The Final Frontier&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="300" x="220" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="pQ-ffOLj7HxuD_XCjp-8-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Intro&lt;div&gt;Short Paragraph&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="300" x="220" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="pQ-ffOLj7HxuD_XCjp-8-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Card A" vertex="1">
+          <mxGeometry height="90" width="170" x="70" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="pQ-ffOLj7HxuD_XCjp-8-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Card B" vertex="1">
+          <mxGeometry height="90" width="170" x="310" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="pQ-ffOLj7HxuD_XCjp-8-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Card C" vertex="1">
+          <mxGeometry height="90" width="170" x="550" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="pQ-ffOLj7HxuD_XCjp-8-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Footer" vertex="1">
+          <mxGeometry height="100" width="650" x="70" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="pQ-ffOLj7HxuD_XCjp-8-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Toast popup&lt;div&gt;(Credits)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="80" y="660" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="snSQeN--uu7TsiXdAROE" name="Card A">
+    <mxGraphModel dx="1414" dy="961" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="KNpR_gaPovjrKftod-Wv-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="100" width="650" x="70" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KNpR_gaPovjrKftod-Wv-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="LOGO" vertex="1">
+          <mxGeometry height="60" width="120" x="110" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KNpR_gaPovjrKftod-Wv-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="NAVBAR" vertex="1">
+          <mxGeometry height="60" width="230" x="470" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KNpR_gaPovjrKftod-Wv-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Title" vertex="1">
+          <mxGeometry height="30" width="60" x="320" y="75" as="geometry" />
+        </mxCell>
+        <mxCell id="KNpR_gaPovjrKftod-Wv-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Footer" vertex="1">
+          <mxGeometry height="100" width="650" x="70" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="KNpR_gaPovjrKftod-Wv-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Toast popup&lt;div&gt;(Credits)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="80" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="KNpR_gaPovjrKftod-Wv-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="why I love Star Trek" vertex="1">
+          <mxGeometry height="440" width="630" x="80" y="170" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Card B" id="aGYNCQ3xaXblQCoHfnMR">
+    <mxGraphModel dx="1414" dy="961" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="EdnZT60Nom9jfUZniQOZ-0" />
+        <mxCell id="EdnZT60Nom9jfUZniQOZ-1" parent="EdnZT60Nom9jfUZniQOZ-0" />
+        <mxCell id="EdnZT60Nom9jfUZniQOZ-2" parent="EdnZT60Nom9jfUZniQOZ-1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="100" width="650" x="70" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EdnZT60Nom9jfUZniQOZ-3" parent="EdnZT60Nom9jfUZniQOZ-1" style="rounded=0;whiteSpace=wrap;html=1;" value="LOGO" vertex="1">
+          <mxGeometry height="60" width="120" x="110" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EdnZT60Nom9jfUZniQOZ-4" parent="EdnZT60Nom9jfUZniQOZ-1" style="rounded=0;whiteSpace=wrap;html=1;" value="NAVBAR" vertex="1">
+          <mxGeometry height="60" width="230" x="470" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EdnZT60Nom9jfUZniQOZ-5" parent="EdnZT60Nom9jfUZniQOZ-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Title" vertex="1">
+          <mxGeometry height="30" width="60" x="320" y="75" as="geometry" />
+        </mxCell>
+        <mxCell id="EdnZT60Nom9jfUZniQOZ-6" parent="EdnZT60Nom9jfUZniQOZ-1" style="rounded=0;whiteSpace=wrap;html=1;" value="Footer" vertex="1">
+          <mxGeometry height="100" width="650" x="70" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="EdnZT60Nom9jfUZniQOZ-7" parent="EdnZT60Nom9jfUZniQOZ-1" style="rounded=1;whiteSpace=wrap;html=1;" value="Toast popup&lt;div&gt;(Credits)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="80" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="EdnZT60Nom9jfUZniQOZ-8" parent="EdnZT60Nom9jfUZniQOZ-1" style="rounded=0;whiteSpace=wrap;html=1;" value="Star Trek V Star Wars" vertex="1">
+          <mxGeometry height="80" width="630" x="80" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="csY8fa2rHYVhWcTt5zmL-0" parent="EdnZT60Nom9jfUZniQOZ-1" style="rounded=1;whiteSpace=wrap;html=1;" value="Star Trek" vertex="1">
+          <mxGeometry height="310" width="310" x="80" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="csY8fa2rHYVhWcTt5zmL-1" parent="EdnZT60Nom9jfUZniQOZ-1" style="rounded=1;whiteSpace=wrap;html=1;" value="Star Wars" vertex="1">
+          <mxGeometry height="310" width="300" x="410" y="290" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Card C" id="q4axOjgH-l4lzdrDvNl4">
+    <mxGraphModel dx="1414" dy="961" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="3dZVGX-AboK3BgzsQYQs-0" />
+        <mxCell id="3dZVGX-AboK3BgzsQYQs-1" parent="3dZVGX-AboK3BgzsQYQs-0" />
+        <mxCell id="DS5bkXtvK3i4mEWBXoOe-4" parent="3dZVGX-AboK3BgzsQYQs-1" style="rounded=1;whiteSpace=wrap;html=1;" value="Facts&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Pic&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Paragraph&lt;/div&gt;" vertex="1">
+          <mxGeometry height="210" width="200" x="40" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="DS5bkXtvK3i4mEWBXoOe-2" parent="3dZVGX-AboK3BgzsQYQs-1" style="rounded=1;whiteSpace=wrap;html=1;" value="Facts&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Pic&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Paragraph&lt;/div&gt;" vertex="1">
+          <mxGeometry height="210" width="200" x="540" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="DS5bkXtvK3i4mEWBXoOe-1" parent="3dZVGX-AboK3BgzsQYQs-1" style="rounded=1;whiteSpace=wrap;html=1;" value="Facts&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Pic&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Paragraph&lt;/div&gt;" vertex="1">
+          <mxGeometry height="270" width="240" x="440" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="DS5bkXtvK3i4mEWBXoOe-0" parent="3dZVGX-AboK3BgzsQYQs-1" style="rounded=1;whiteSpace=wrap;html=1;" value="Facts&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Pic&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Paragraph&lt;/div&gt;" vertex="1">
+          <mxGeometry height="270" width="240" x="110" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="3dZVGX-AboK3BgzsQYQs-2" parent="3dZVGX-AboK3BgzsQYQs-1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="100" width="650" x="70" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3dZVGX-AboK3BgzsQYQs-3" parent="3dZVGX-AboK3BgzsQYQs-1" style="rounded=0;whiteSpace=wrap;html=1;" value="LOGO" vertex="1">
+          <mxGeometry height="60" width="120" x="110" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3dZVGX-AboK3BgzsQYQs-4" parent="3dZVGX-AboK3BgzsQYQs-1" style="rounded=0;whiteSpace=wrap;html=1;" value="NAVBAR" vertex="1">
+          <mxGeometry height="60" width="230" x="470" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3dZVGX-AboK3BgzsQYQs-5" parent="3dZVGX-AboK3BgzsQYQs-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Title" vertex="1">
+          <mxGeometry height="30" width="60" x="320" y="75" as="geometry" />
+        </mxCell>
+        <mxCell id="3dZVGX-AboK3BgzsQYQs-6" parent="3dZVGX-AboK3BgzsQYQs-1" style="rounded=0;whiteSpace=wrap;html=1;" value="Footer" vertex="1">
+          <mxGeometry height="100" width="650" x="70" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="3dZVGX-AboK3BgzsQYQs-7" parent="3dZVGX-AboK3BgzsQYQs-1" style="rounded=1;whiteSpace=wrap;html=1;" value="Toast popup&lt;div&gt;(Credits)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="80" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="3dZVGX-AboK3BgzsQYQs-8" parent="3dZVGX-AboK3BgzsQYQs-1" style="rounded=0;whiteSpace=wrap;html=1;" value="Nerd out" vertex="1">
+          <mxGeometry height="80" width="630" x="80" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="3dZVGX-AboK3BgzsQYQs-10" parent="3dZVGX-AboK3BgzsQYQs-1" style="rounded=1;whiteSpace=wrap;html=1;" value="Facts&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Pic&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Paragraph&lt;/div&gt;" vertex="1">
+          <mxGeometry height="310" width="300" x="240" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="DS5bkXtvK3i4mEWBXoOe-5" parent="3dZVGX-AboK3BgzsQYQs-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Gallery" vertex="1">
+          <mxGeometry height="30" width="60" x="365" y="585" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
