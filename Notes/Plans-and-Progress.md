@@ -4,7 +4,8 @@ A Central document from which to Document and record some of the ideas for the w
 
 The Brief can be explained as:
 
-> [!IMPORTANT] Brief
+> [!IMPORTANT] 
+> "Brief"
 > Design, develop and publish a responsive web site using recommended design practices. Your web site will contain a home page and three content pages. Create an external style sheet (.css file) that configures text, colour and layout. No font tags, embedded CSS or inline CSS is allowed. You must publish your project to the Internet. 
 >    Your website must be on one of the following topics: 
 >    - Sport 
@@ -175,7 +176,8 @@ The following is a detailed list of references where AI was used:
 
 ## Toaster popup
 
-> [!NOTE] toaster css with flexbox no javascript
+> [!NOTE] 
+"toaster css with flexbox no javascript"
 > Most of the results through a raw google search provided only bootstrap or Javascript powered solutions so I asked Google Gemini.
 
 This prompt provided the following code:
@@ -307,6 +309,7 @@ This prompt provided the following code:
 ## Introduction Paragraph
 I was struggling to try and develop a clean and concise introduction to star trek.  My Passion is prohibiting me from writing cleanly so I asked Google Gemini:
 
-> [!NOTE] "Give me a brief introduction to star trek to include as a paragraph"
+> [!NOTE] 
+> "Give me a brief introduction to star trek to include as a paragraph"
 > Created by Gene Roddenberry, Star Trek is an iconic sci-fi franchise set in a hopeful future where humanity has overcome poverty, war, and greed. Centered on the space exploration armada known as Starfleet, the stories follow diverse crews traveling the galaxy in vessels like the USS Enterprise. Their mission is to seek out new life, expand Federation ideals, and boldly go where no one has gone before.
 
