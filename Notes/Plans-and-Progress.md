@@ -4,50 +4,21 @@ A Central document from which to Document and record some of the ideas for the w
 
 The Brief can be explained as:
 
-!!! Quote Brief
-    Design, develop and publish a responsive web site using recommended design practices. Your web site will contain a home page and three content pages. Create an external style sheet (.css file) that configures text, colour and layout. No font tags, embedded CSS or inline CSS is allowed. You must publish your project to the Internet. 
-    Your website must be on one of the following topics: 
-    - Sport 
-    - Music 
-    - Comedy 
-    - Any other topic that provides substantial, relevant, and clearly structured content
+>[!IMPORTANT] Brief
+> Design, develop and publish a responsive web site using recommended design practices. Your web site will contain a home page and three content pages. Create an external style sheet (.css file) that configures text, colour and layout. No font tags, embedded CSS or inline CSS is allowed. You must publish your project to the Internet. 
+>    Your website must be on one of the following topics: 
+>    - Sport 
+>    - Music 
+>    - Comedy 
+>    - Any other topic that provides substantial, relevant, and clearly structured content
 
 ### Website Goal
 To probide an accessible responsive static website that conveys a point of interest for me that I can publish.
 
 Plan:
 ---
-```plantuml
-@startgantt
-    project starts 2026-07-08
-    today is coloured in #AAFFAA
-    [<color:red>Submission Deadline] as [M1] happens at 2026-07-25 and is coloured in red
-    [Develop Content] as [T1] starts 2026-07-08 and ends at 2026-07-12
-    [Outline Structure] as [T2] starts 2026-07-08 and requires 3 days
-    [T2] pauses at 2026-07-09 to 2026-07-11
-    [Code Index.HTML] as [T3] starts at [T1]'s end and requires 2 days
-    [T2] --> [T3]
-    [Stylesheet] as [T4] starts at [T3]'s end and requires 2 days
-    [Update and Adjust] as [T5] starts at [T4]'s end
-    [Validate HTML] as [T6] starts at [T5]'s end
-    [Validate CSS] as [T7] starts at [T6]'s end
-    
-    [Contingency] as [T8] Starts at [T7]'s end and ends at [M1]'s start
-    [Document outline] starts at [T1]'s start and ends at [M1]'s start
+![Plan](https://www.plantuml.com/plantuml/png/XPHVQzim5CNV-oakZB4d3_-9xNICKfDIDbZPWxkzb3nergLLS2JFkXhBjvyisKaKnomlWNlE-Htz4RxNn7fwPPBe1kolwzKE6m8trf36QH75PHIldKgAimC83OrgbUcHWv3mhgeU7wlA6Lu-3qh_oKftjVcr5reB9U416M-5n2qm3IzFoHRUMDUXrC3es97cm2I_fDi_Jtx0FzYg3ZPA4ahog6UBcYtLOL3oW9wa7lFTqB0IgAat3TcM4PGkWNhyRKIF6ZAmczUEukmTCng3ZlWMI9qQ4-_TA8xmLNBy-_7ByzEtiIyxzZ5o-_YWXpM7bUb5PHJTkQYVr7HeKRyXJeUn2fdPVva_Eiu8dLxndT4JA0z1gn7aGpzPArpiR3T56CYl1pPrFVhBq5-S-wTJaoJaAyhcC6RMMwZFCkMO2MxRlYqxzkpnsQZ6x54IA7_nOV79lOovyI3h7TxcRVuU6hNlMYISBcP9o9oGn3DXvOJvF5-O5mlpSc6-lZgVdSLyUVSekViO_0C0)
 
-
-    [T1] is 95% complete
-    [T2] is 95% complete
-    [T3] is 10% complete
-    [T4] is 0% complete
-    [T5] is 0% complete
-    [T6] is 0% complete
-    [T7] is 0% complete
-    [T8] is 0% complete
-    [Document outline] is 10% complete
-
-@endgantt
-```
 ## Goal
 to Create a Static web page as a homage to Star Trek.
 The Goal is to provide a website that meets all of the criteria for the module 1 assessment for the UCD Full Stack Development course.
@@ -195,51 +166,7 @@ This order mirrors how assessors will review projects. Following it keeps demos 
 - README presence (if applicable)
 
 ## Site Map
-```plantuml
-@startmindmap site map
-* Website Home
-  ** Header
-    *** Logo
-    *** Title
-    *** NavBar
-      **** Home
-      **** About
-    **** Contact Me
-  ** body
-    *** Hero Section?
-    *** Intro
-    *** Card 1: Why I love Star Trek
-      **** SubSite1: Card 1.
-        *****: Header
-        //(Same as Home Header)//;
-        *****: Main
-        //(Content Here)//
-        //Background - Enterprise/ //
-        // Star Trek Engineering Logo// ;
-        ***** Footer
-    *** Card 2: Star Trek v Star Wars
-      **** SubSite2: Card 2.
-        *****: Header
-        //(Same as Home Header)//;
-        *****: Main
-        //(Content Here)//
-        //Background - Enterprise Facing/ //
-        // Millenium Falcon//;
-        ***** Footer      
-    *** Card 3: Nerd Out
-      **** SubSite3: Card 3.
-        *****: Header
-        //(Same as Home Header)//;
-        *****: Main
-        //(Content Here)//
-        // Slide show with comments //;
-        ***** Footer
-  ** Footer
-  *** Toaster Popup with Licenses and References
-  *** Mailto link
-
-@endmindmap
-```
+![Site Map](https://www.plantuml.com/plantuml/png/pPH1RzD048Nl_XLFuWAMO0NSWX2b5IMLabBXI1L27DRUmLbblHFjhXFbtpEnBJUEmg4dkDWxC--DPpxBlef9XzHORngzHRI988Si__d2sNgTQdQ6V61p8ETu_sk6HoexrPmRofJwqUNnSSmhzI43ydms9sqeYEHhe8C87dHDSWafzfAZACU2Qnw3bKsEnkXUxwvra718o4o6JKsXT2t99CC4rn99-uNr6wYZQHZXeWkVIsvJThbsmpxfAc59tGOePUrncZa5Ha5Likm_ZTaxdyBJ_3Sw6BmLHki3xk1uHoW4BrQ1DgSJNMOB56rP24Ffq7Tw8wRH9aZHCnspIhqiT4FGiOCnb5_9_kV6fRR-r7PSbNmwRaMYFobTwsfJ1swzmMjy4LNO1Xj9OQ9wsaiqjVL4mVgwUvjIF7iyRfcbpnJJkzb9Zrr_VjGXFeEJjEXR_KUSSAih8N6EQscT8s_RHkgkOg_KPKPzPahg_Gpt9FTlRNe6777rxdy11uMpXX3NlCVUfZKgRXgHHlnjSKbEppbMhAD4UE1jk-tRB6n5FbA45kpVwJS5yXN5tZ3zc6LObnZE-asMNP4tmpyko_u0)
 
 # AI Refrences
 AI was used extensively for the development of this project.  I used Google Gemini Search to provide ideas and to fact check some of the items i already had in my head.
@@ -248,7 +175,7 @@ The following is a detailed list of references where AI was used:
 
 ## Toaster popup
 
->[!note] toaster css with flexbox no javascript
+>[!NOTE] toaster css with flexbox no javascript
 > Most of the results through a raw google search provided only bootstrap or Javascript powered solutions so I asked Google Gemini.
 
 This prompt provided the following code:
@@ -380,6 +307,6 @@ This prompt provided the following code:
 ## Introduction Paragraph
 I was struggling to try and develop a clean and concise introduction to star trek.  My Passion is prohibiting me from writing cleanly so I asked Google Gemini:
 
->[!note] give me a brief introduction to star trek to include as a paragraph
+>[!NOTE] "Give me a brief introduction to star trek to include as a paragraph"
 > Created by Gene Roddenberry, Star Trek is an iconic sci-fi franchise set in a hopeful future where humanity has overcome poverty, war, and greed. Centered on the space exploration armada known as Starfleet, the stories follow diverse crews traveling the galaxy in vessels like the USS Enterprise. Their mission is to seek out new life, expand Federation ideals, and boldly go where no one has gone before.
 
