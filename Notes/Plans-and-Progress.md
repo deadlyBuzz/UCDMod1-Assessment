@@ -331,3 +331,26 @@ Board Room: http://steveboese.squarespace.com/journal/2015/2/2/i-dont-want-to-wo
 
 Star Trek Engineering Logo: https://imgbin.com/png/fBE69cXG/star-trek-starfleet-command-starship-enterprise-embroidered-patch-png
 (Modified in Inkscape)
+
+# Sample References
+I have used the examples and tutorials from the course to form a foundation for some of the websites.
+I will attempt to record which ones were used for each website along with some notes taken from each:
+
+## Module 1 Unit 9
+The structure for the cards on the home page.
+The structure used is:
+
+```plantuml
+@startmindmap
+* Section
+** div Class=Row
+*** div Class=Column
+**** div Class=<formatting for Card>
+***** Header (Title)
+***** Paragraph (Content)
+*** div Class=Column
+**** div Class=<formatting for Card>
+***** Header (Title)
+***** Paragraph (Content)
+@endmindmap
+``` 
