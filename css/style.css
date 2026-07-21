@@ -29,13 +29,15 @@ Anakiwa / Light Blue:
 */ 
 @import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&display=swap');
 
-body{
+body,
+.aboutBlock{
     font-family: Antonio, Arial, Helvetica, sans-serif;
     color: #FFFF99;
     background-color: #0D131A;
 }
 
-header{
+header,
+footer{
     color: #0D131A;
 }
 .headerTitle{
@@ -48,4 +50,15 @@ max-width: 100px;
 
 .navbar{
     border-bottom: solid 2px #ffff99;
+}
+
+.introCard{
+    background-color: #99CCFF;
+}
+a.footerLink:link{
+    color:#FF9933
+}
+
+a.footerLink:hover{
+    color:#993300
 }
