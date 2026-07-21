@@ -4,24 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
     <title>Document</title>
+    <!-- Temporary Styles while working through Display-->
+    <style>
+
+    </style>
+        <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet">
+      <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
-  <header>
-    <h1>Alan's Homage to Star Trek</h1>
-    <nav>
-      <a href="#">home</a>
-      <a href="#">About Me</a>
-      <a href="#">Contact Me</a>
-    </nav>
-  </header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-4">
+    <div class="container-fluid">
+      <img src="../images/Logo.png" alt="Starfleet Engineering Logo" class="headerLogo p-3">
+      <h1 class="headerTitle">Alan's Homage to Star Trek</h1>
+      <button type="button" 
+        class="navbar-toggler"
+        data-bs-toggle="collapse"
+        data-bs-target="headerNavbar"
+        aria-label="Navigation"
+        >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="headerNavbar">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact Me</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
   <main>
-    <section>
+    <header class="d-flex justify-content-center p-5">
+      <div class="bg-secondary text-center py-5 w-25 align-center d-inline-block">
         <p>Space, The Final Frontier.</p>
         <p>These are the voyages of the Starship Enterprise.</p>
         <p>It's mission, to explore Strange new worlds.</p>
         <p>To Seek out new life and new Civilisations.</p>
         <p>To Boldly go where no one has gone before.</p>
-    </section>
+      </div>
+    </header>
     <section>
       <p>This is my Page, a Homage to Star Trek and some anecdotes to why i Love it so much and some interesting facts about the series.</p>
       <p>Created by Gene Roddenberry, Star Trek is an iconic sci-fi franchise set in a hopeful future where humanity has overcome poverty, war, and greed. Centered on the space exploration armada known as Starfleet, the stories follow diverse crews traveling the galaxy in vessels like the USS Enterprise. Their mission is to seek out new life, expand Federation ideals, and boldly go where no one has gone before</p>

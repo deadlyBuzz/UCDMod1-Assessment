@@ -1,0 +1,51 @@
+/* Import Google Fonts; Antonio
+
+Star Trek Okudagram coloiur Scheme:
+The Classic TNG Era Palette (The "Okudagram" Yellows &Tans)
+The early seasons of TNG relied heavily on warm earth tones, golds, andmuted purples. Digital design archives like
+The LCARS Color Guide
+and datapackages like
+trekcolors
+break down these specific hexadecimalvalues:
+Neon Carrot / LCARS Orange:
+#FF9933
+— The classic bright operationalbutton color.
+
+Atomic Tangerine / Mango:
+#FF9900 or #FF9966
+— Used for structuralpanel headers.
+
+Golden Tanoi / Beige:
+#FFCC66
+— The dominant background block shadefor stable menus.
+
+Pale Canary / Yellow:
+#FFFF99
+— Used for active text readouts andhighlighted indicators.
+
+Anakiwa / Light Blue:
+#99CCFF
+— Frequently used for secondarytelemetry readouts.
+*/ 
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&display=swap');
+
+body{
+    font-family: Antonio, Arial, Helvetica, sans-serif;
+    color: #FFFF99;
+    background-color: #0D131A;
+}
+
+header{
+    color: #0D131A;
+}
+.headerTitle{
+color: #FF9933;
+}
+
+.headerLogo{
+max-width: 100px;
+}
+
+.navbar{
+    border-bottom: solid 2px #ffff99;
+}

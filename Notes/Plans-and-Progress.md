@@ -313,3 +313,21 @@ I was struggling to try and develop a clean and concise introduction to star tre
 > "Give me a brief introduction to star trek to include as a paragraph"
 > Created by Gene Roddenberry, Star Trek is an iconic sci-fi franchise set in a hopeful future where humanity has overcome poverty, war, and greed. Centered on the space exploration armada known as Starfleet, the stories follow diverse crews traveling the galaxy in vessels like the USS Enterprise. Their mission is to seek out new life, expand Federation ideals, and boldly go where no one has gone before.
 
+## Image references and sources:
+Self Sealing Stem Bolts: https://wiki.fed-space.com/index.php?title=Self-sealing_stem_bolt
+
+Transporter: https://www.cbr.com/star-trek-tos-enterprise-multiple-transporter-rooms/
+
+Studio Execs: https://www.imdb.com/title/tt1118051/mediaviewer/rm4193435136/?ref_=tt_ph_2
+
+Colourful Bridge: https://www.reddit.com/r/GalaxyS23Ultra/comments/1ds4023/this_camera_is_really_amazing/
+
+Enterpise Crew: https://memory-beta.fandom.com/wiki/USS_Enterprise_(NCC-1701)_personnel
+
+Geordi Engineering: https://screenrant.com/star-trek-geordi-la-forge-complete-timeline/
+
+Board Room: http://steveboese.squarespace.com/journal/2015/2/2/i-dont-want-to-work-with-companies-i-want-to-work-with-peopl.html;jsessionid=DD7DAB107068EE6647376468B37BFE2A.v5-web018
+
+
+Star Trek Engineering Logo: https://imgbin.com/png/fBE69cXG/star-trek-starfleet-command-starship-enterprise-embroidered-patch-png
+(Modified in Inkscape)
