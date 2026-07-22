@@ -332,6 +332,9 @@ Board Room: http://steveboese.squarespace.com/journal/2015/2/2/i-dont-want-to-wo
 Star Trek Engineering Logo: https://imgbin.com/png/fBE69cXG/star-trek-starfleet-command-starship-enterprise-embroidered-patch-png
 (Modified in Inkscape)
 
+enterpise Over Promellian battle cruiser: cygnus-x1.net/links/lcars/epsd-TNG3-6.php
+
+
 # Sample References
 I have used the examples and tutorials from the course to form a foundation for some of the websites.
 I will attempt to record which ones were used for each website along with some notes taken from each:
