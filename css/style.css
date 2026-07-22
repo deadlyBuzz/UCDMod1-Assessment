@@ -68,12 +68,56 @@ a.footerLink:hover{
 
 /* Section for Card 2 */
 table{
-    border-collapse: collapse;
+    border-collapse: separate;
     border: 2px solid #FF9933 ;
+    width: 100%;
+    border-spacing: 0;
+    border-radius: 10px;
+
 }
+tr{
+    display: flex;
+    width: 100%;
+}
+
+th, td{
+    flex:1;
+    text-align: left;
+    border: 1px solid #0D131A;
+}
+td{
+     background-color: #FF9966;
+     color: #0D131A;
+}   
+th{
+     background-color: #FFCC66;
+     color: #0D131A;
+}   
 
 caption{
     caption-side: bottom;
-    font-weight: bold;
     font-style: italic;
+    color: #FFCC66;
+}
+
+.comparison{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: top;
+    gap: 1rem;
+}
+
+.compareCard{
+    flex: 2;
+    padding: 10px;
+    margin: 3px;
+    background-color: #99CCFF;
+    color: #0D131A;
+    border: 2px solid #99CCFF;
+    border-radius: 10px;
+}
+
+.compareImage{
+    max-width: 100%;
 }

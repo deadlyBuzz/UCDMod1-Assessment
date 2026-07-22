@@ -332,7 +332,11 @@ Board Room: http://steveboese.squarespace.com/journal/2015/2/2/i-dont-want-to-wo
 Star Trek Engineering Logo: https://imgbin.com/png/fBE69cXG/star-trek-starfleet-command-starship-enterprise-embroidered-patch-png
 (Modified in Inkscape)
 
-enterpise Over Promellian battle cruiser: cygnus-x1.net/links/lcars/epsd-TNG3-6.php
+enterpise Over Promellian battle cruiser: https://cygnus-x1.net/links/lcars/epsd-TNG3-6.php
+
+Star Trek TNG Crew: https://memory-alpha.fandom.com/wiki/Star_Trek:_The_Next_Generation?file=Star_Trek_TNG_cast.jpg
+
+Millenium Falcon Crew: https://www.imdb.com/title/tt0076759/mediaviewer/rm2032570112/?ref_=ttmi_mi_16_2
 
 
 # Sample References
