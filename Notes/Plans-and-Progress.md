@@ -121,7 +121,7 @@ The answer was to refer to a fictional device called a "Heisenberg compensator" 
 The Special effects team would get calls asking "How does the Heisenberg Compensators work?" and they would answer "They work Just fine, thank you" (Ref Youtube)[https://www.youtube.com/watch?v=ldZ0KAtVZqc&t=109s]
 
 #### Self Sealing Stem Bolts
-Used, again as a plot device during an episode of Star-trek Deep Space nine called "Progress" as a comodity to be traded and even a prop was developed for the device, but nobody knows what they actually are.
+Used, again as a plot device during an episode of Star-trek Deep Space nine called "Progress" as a comodity to be traded and even a prop was developed for the device, but nobody knows what they actually are, though they have popped up repeatedly in other series, almost as an in-joke.
 
 #### Ultimate Engineering Fix
 When the Enterprise is in trouble and things aren't working, Geordi LaForge can often be found mentioning how he needs to "reconfigure the power couplings" as a fix.  This is used often in the show, in battle or during investigations.
@@ -361,3 +361,7 @@ The structure used is:
 ***** Paragraph (Content)
 @endmindmap
 ``` 
+
+## Module 1 Unit 7
+To double check the implementation of screen breakpoints.
+
