@@ -338,6 +338,9 @@ Star Trek TNG Crew: https://memory-alpha.fandom.com/wiki/Star_Trek:_The_Next_Gen
 
 Millenium Falcon Crew: https://www.imdb.com/title/tt0076759/mediaviewer/rm2032570112/?ref_=ttmi_mi_16_2
 
+The original Series crew laughing on the bridge:   https://www.denofgeek.com/tv/star-trek-why-we-cant-wait-to-go-back-to-the-24th-century/
+
+
 
 # Sample References
 I have used the examples and tutorials from the course to form a foundation for some of the websites.

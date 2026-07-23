@@ -123,6 +123,13 @@ caption{
     max-width: 100%;
 }
 
+/* Data Card on Slide show */
+.dataCard{
+    background-color: #FF9966;
+    border: 2px solid #FF9966;
+    color: #0D131A;
+}
+
 @media (max-width: 768px) {
     .comparison{
         display: flex;
