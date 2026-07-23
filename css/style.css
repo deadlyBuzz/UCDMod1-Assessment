@@ -130,6 +130,14 @@ caption{
     color: #0D131A;
 }
 
+.inputData{
+    background-color: #ffff99;
+    border: 1px solid #6789ac;
+}
+
+.sendButton{
+    background-color: #FF9900;
+}
 @media (max-width: 768px) {
     .comparison{
         display: flex;
