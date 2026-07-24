@@ -130,11 +130,15 @@ caption{
     color: #0D131A;
 }
 
+/* Contact Form Styles */
 .inputData{
     background-color: #ffff99;
     border: 1px solid #6789ac;
 }
 
+.contactForm{
+    max-width: 600px;
+}
 .sendButton{
     background-color: #FF9900;
 }
