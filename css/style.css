@@ -28,7 +28,6 @@ Anakiwa / Light Blue:
 — Frequently used for secondarytelemetry readouts.
 */ 
 @import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&display=swap');
-@import url('https://fonts.googleapis.com');
 
 body,
 .aboutBlock{
@@ -38,9 +37,19 @@ body,
     background-color: #0D131A;
 }
 
+a{
+    color: #212529;
+    font-weight: bold;
+    font-style: italic;
+}
+
 header,
 footer{
-    color: #0D131A;
+    color: #FFFF99;
+}
+
+footer{
+    border-top: solid 2px #FFFF99;
 }
 .headerTitle{
 color: #FF9933;
@@ -60,9 +69,9 @@ max-width: 100px;
 }
 
 .linkCard{
-    background-color: #FFFF99;
+    background-color: #FF9933;
     color: #0D131A;
-    border: 2px solid #FFFF00;
+    border: 2px solid #FF9933;
 }
 a.footerLink:link{
     color:#FF9933
