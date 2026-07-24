@@ -58,6 +58,12 @@ max-width: 100px;
     background-color: #99CCFF;
     color: #0D131A;
 }
+
+.linkCard{
+    background-color: #FFFF99;
+    color: #0D131A;
+    border: 2px solid #FFFF00;
+}
 a.footerLink:link{
     color:#FF9933
 }
