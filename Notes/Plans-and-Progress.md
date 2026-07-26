@@ -364,6 +364,8 @@ The structure used is:
 ***** Paragraph (Content)
 @endmindmap
 ``` 
+## Module 1 Unit 9
+The code and layout for the NavBar, allowing it to be resized.
 
 ## Module 1 Unit 7
 To double check the implementation of screen breakpoints.
