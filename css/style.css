@@ -32,7 +32,8 @@ Anakiwa / Light Blue:
 body,
 .aboutBlock{
     font-family: Antonio, Arial, Helvetica, sans-serif;
-    font-weight: 100;
+    font-size: 16pt;
+    font-weight: 140;
     color: #FFFF99;
     background-color: #0D131A;
 }
@@ -157,6 +158,12 @@ caption{
 .sendButton{
     background-color: #FF9900;
 }
+.sendButton:hover, .sendButton:focus{
+    background-color: #ffff99;
+    color: #0D131A;
+    border: 3px solid #FF9900;
+}
+
 @media (max-width: 768px) {
     .comparison{
         display: flex;
