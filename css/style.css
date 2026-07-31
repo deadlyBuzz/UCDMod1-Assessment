@@ -37,12 +37,17 @@ body,
     color: #FFFF99;
     background-color: #0D131A;
 }
+.aboutBlock{
+    max-width: 120ch;
+}
 
 a{
     color: #212529;
     font-weight: bold;
     font-style: italic;
 }
+
+
 
 header,
 footer{
@@ -67,6 +72,7 @@ max-width: 100px;
 .introCard{
     background-color: #99CCFF;
     color: #0D131A;
+    max-width: 120ch;
 }
 
 .linkCard{
@@ -144,6 +150,11 @@ caption{
     background-color: #FF9966;
     border: 2px solid #FF9966;
     color: #0D131A;
+}
+
+/*Styles specifically for the 'About me' page*/
+.aboutPara{
+    max-width: 120ch;
 }
 
 /* Contact Form Styles */
