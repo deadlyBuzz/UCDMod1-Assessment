@@ -15,55 +15,29 @@ I've also used Axe Devtools as part of the testing to ensure that the colour con
 ### Error Checking
 * Open each page in Developer mode and ensure there are no errors.
   - [X] Index
-  - :x: About me
-    >[!CAUTION]
-    > One warning: 
-    >> The value "\<device-width>" for key "width" is invalid, and has been ignored.
-  - :x: Contact
-    >[!CAUTION]
-    > One warning: 
-    >> The value "\<device-width>" for key "width" is invalid, and has been ignored.
-  - :x: Card 1
-    >[!CAUTION]
-    > One warning: 
-    >> The value "\<device-width>" for key "width" is invalid, and has been ignored.
-  - :x: Card 2
-    >[!CAUTION]
-    > One warning: 
-    >> The value "\<device-width>" for key "width" is invalid, and has been ignored.
-  - :x: Card 3
-    >[!CAUTION]
-    > One warning: 
-    >> The value "\<device-width>" for key "width" is invalid, and has been ignored.
+  - [x] About me
+  - [x] Contact
+  - [x] Card 1
+  - [x] Card 2
+  - [x] Card 3
 
 ### Responsiveness
 * Check Each page for Break points at 375 for mobile, 768 for tablet
-  - :x: Index
-    >[!CAUTION]
-    > At <768
-    > - no Margin between vertical cards.
-    > - X Margin too small on sides of cards.
+  - [x] Index
   - [X] About me
   - [X] Contact
   - [X] Card 1
-  - :x: Card 2
-    >[!CAUTION]
-    > margins are too tight to the edge.
+  - [x] Card 2
   - [X] Card 3
 
 * For Phone and Tablet, ensure there is sufficient margin on X for finger access, scrolling.
-  - :x: Index
-    >[!CAUTION]
-    > At <768
-    > - no Margin between vertical cards.
-    > - X Margin too small on sides of cards.
+  - [x] Index
   - [X] About me
   - [X] Contact
   - [X] Card 1
-  - :x: Card 2
-    >[!CAUTION]
-    > margins are too tight to the edge.
+  - [x] Card 2
   - [X] Card 3
+
 * for phone and Tablet, Navbar is hamburger icon and operates correctly
   - [X] Index
   - [X] About me
@@ -100,9 +74,7 @@ I've also used Axe Devtools as part of the testing to ensure that the colour con
 * Ensure 'ENTER' operation for each control on the page works
   - [X] Index
   - [X] About me
-  - :x: Contact
-    >[!CAUTION]
-    > - echo doesnt contain all the relevant information
+  - [x] Contact
   - [X] Card 1
   - [X] Card 2
   - [X] Card 3
