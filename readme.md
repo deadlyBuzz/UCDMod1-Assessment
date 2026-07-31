@@ -80,12 +80,12 @@ I've also used Axe Devtools as part of the testing to ensure that the colour con
   - [X] Card 3
 
 * Run Narrator through each control on the srceen
-  - [ ] Index
-  - [ ] About me
-  - [ ] Contact
-  - [ ] Card 1
-  - [ ] Card 2
-  - [ ] Card 3
+  - [X] Index
+  - [X] About me
+  - [X] Contact
+  - [X] Card 1
+  - [X] Card 2
+  - [X] Card 3
 
 ## General Notes / Developer log
 One of the most mesmerising parts I found watching Star trek The next Generation, was the computers and panels.
@@ -126,6 +126,24 @@ Card C:     Nerd Out
 ### Site Map:
 ![Site Map](https://www.plantuml.com/plantuml/png/pPH1RzD048Nl_XLFuWAMO0NSWX2b5IMLabBXI1L27DRUmLbblHFjhXFbtpEnBJUEmg4dkDWxC--DPpxBlef9XzHORngzHRI988Si__d2sNgTQdQ6V61p8ETu_sk6HoexrPmRofJwqUNnSSmhzI43ydms9sqeYEHhe8C87dHDSWafzfAZACU2Qnw3bKsEnkXUxwvra718o4o6JKsXT2t99CC4rn99-uNr6wYZQHZXeWkVIsvJThbsmpxfAc59tGOePUrncZa5Ha5Likm_ZTaxdyBJ_3Sw6BmLHki3xk1uHoW4BrQ1DgSJNMOB56rP24Ffq7Tw8wRH9aZHCnspIhqiT4FGiOCnb5_9_kV6fRR-r7PSbNmwRaMYFobTwsfJ1swzmMjy4LNO1Xj9OQ9wsaiqjVL4mVgwUvjIF7iyRfcbpnJJkzb9Zrr_VjGXFeEJjEXR_KUSSAih8N6EQscT8s_RHkgkOg_KPKPzPahg_Gpt9FTlRNe6777rxdy11uMpXX3NlCVUfZKgRXgHHlnjSKbEppbMhAD4UE1jk-tRB6n5FbA45kpVwJS5yXN5tZ3zc6LObnZE-asMNP4tmpyko_u0)
 
+### WireFrames
+The wireframes for the plan were as follows:
+#### Home Page
+![Home Page](/images/Wireframe-Page-1.jpg)
+Wireframe for Home Page / index.html
+
+#### Card A
+![Card A](/images/Wireframe-Card%20A.jpg)
+Wireframe for Card A
+
+#### Card B
+![Card B](/images/Wireframe-Card%20B.jpg)
+Wireframe for Card B
+
+#### Card C
+![Card C](/images/Wireframe-Card%20C.jpg)
+Wireframe for Card C
+
 ## Github Repo Link
 https://github.com/deadlyBuzz/UCDMod1-Assessment
 
@@ -135,146 +153,94 @@ https://deadlybuzz.github.io/UCDMod1-Assessment/
 ## References and Notes
 The following is a list of places and pages where I obtained additional resources and help used in building this site:
 
-# AI Refrences
+### AI Refrences
 AI was used extensively for the development of this project.  I used Google Gemini Search to provide ideas and to fact check some of the items i already had in my head.
 
 The following is a detailed list of references where AI was used:
 
-## Toaster popup
-
-> [!NOTE] 
-"toaster css with flexbox no javascript"
-> Most of the results through a raw google search provided only bootstrap or Javascript powered solutions so I asked Google Gemini.
-
-This prompt provided the following code:
-```HTML
-<!-- Toast Container positioned at the bottom-right of the screen -->
-<div class="toast-container">
-  
-  <!-- Success Toast -->
-  <div class="toast toast-success">
-    <div class="toast-icon">✓</div>
-    <div class="toast-content">
-      <p class="toast-title">Success</p>
-      <p class="toast-message">Your changes have been saved successfully.</p>
-    </div>
-    <button class="toast-close" onclick="this.parentElement.style.display='none'">×</button>
-  </div>
-
-  <!-- Error Toast -->
-  <div class="toast toast-error">
-    <div class="toast-icon">✕</div>
-    <div class="toast-content">
-      <p class="toast-title">Error</p>
-      <p class="toast-message">An error occurred while uploading your file.</p>
-    </div>
-    <button class="toast-close" onclick="this.parentElement.style.display='none'">×</button>
-  </div>
-
-</div>
-```
-
-```css
-/* Container for stacking multiple toasts */
-.toast-container {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  display: flex;
-  flex-direction: column;
-  gap: 12px; /* Space between notifications */
-  z-index: 9999;
-  font-family: sans-serif;
-}
-
-/* Individual Toast Structure using Flexbox */
-.toast {
-  display: flex;
-  align-items: center; /* Vertically centers the icon, text, and close button */
-  width: 340px;
-  padding: 16px;
-  border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-  background-color: #fff;
-  color: #333;
-  
-  /* CSS Slide-in Animation */
-  animation: slideIn 0.3s ease-out forwards;
-}
-
-/* Flexbox Layout Internal Parts */
-.toast-icon {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 20px;
-  font-weight: bold;
-  margin-right: 14px;
-  flex-shrink: 0; /* Prevents icon from shrinking if text is long */
-}
-
-.toast-content {
-  flex-grow: 1; /* Forces the text area to fill available horizontal space */
-}
-
-.toast-title {
-  margin: 0 0 4px 0;
-  font-weight: 600;
-  font-size: 14px;
-}
-
-.toast-message {
-  margin: 0;
-  font-size: 13px;
-  color: #666;
-}
-
-.toast-close {
-  background: none;
-  border: none;
-  font-size: 18px;
-  color: #999;
-  cursor: pointer;
-  padding: 0 0 0 10px;
-  flex-shrink: 0;
-}
-
-.toast-close:hover {
-  color: #444;
-}
-
-/* Toast Theme Variants */
-.toast-success {
-  border-left: 5px solid #2ecc71;
-}
-.toast-success .toast-icon {
-  color: #2ecc71;
-}
-
-.toast-error {
-  border-left: 5px solid #e74c3c;
-}
-.toast-error .toast-icon {
-  color: #e74c3c;
-}
-
-/* Slide-in Keyframe from the Right side */
-@keyframes slideIn {
-  from {
-    transform: translateX(110%);
-    opacity: 0;
-  }
-  to {
-    transform: translateX(0);
-    opacity: 1;
-  }
-}
-
-```
-
-## Introduction Paragraph
+#### Introduction Paragraph
 I was struggling to try and develop a clean and concise introduction to star trek.  My Passion is prohibiting me from writing cleanly so I asked Google Gemini:
 
 > [!NOTE] 
 > "Give me a brief introduction to star trek to include as a paragraph"
 > Created by Gene Roddenberry, Star Trek is an iconic sci-fi franchise set in a hopeful future where humanity has overcome poverty, war, and greed. Centered on the space exploration armada known as Starfleet, the stories follow diverse crews traveling the galaxy in vessels like the USS Enterprise. Their mission is to seek out new life, expand Federation ideals, and boldly go where no one has gone before.
+
+#### Friendy Bio
+I was looking to change some of the verbage and tone of the "About me" Page and what i had at hand was very formal and CV-Ish.
+I engaged in a conversation with Google Gemini to reform it, a printout that can be found [HERE](/Notes/Crafting-a-Fiendishly-Impersonal-Bio_Google_Gemini.pdf)
+
+#### Shuttle Prop Hostory
+I knew the history of the Transporter but some of the details were missing so I engaged in a conversation with Google Gemini to flesh out the details ([HERE](/Notes/star-trek-didnt-have-a-shuttle-prop.pdf))
+
+#### Studio exec interference
+The fact that the studio execs interfered with the storylines in Star trek was a big factor in how some of the stories panned out so i wanted to be sure of the data I had at hand.  This conversation with Google Gemini is detailed [HERE](/Notes/studio-execs-messed-with-the-ending.pdf)
+
+#### Table Spacing
+When looking for the syntax for table spacing in Bootstrap, a plain google search gave me everything but what I wanted, Tailwind, CSS, Javascript, everything but what I wanted, so I used "AI MODE" on google (Gemini), the details can be found [HERE](/Notes/tableSpacing-search.pdf)
+
+##### Fonts and Colours to use
+As I initially wanted to replicate the LCARS (Library Computer Access and Retrieval System) system in Star trek I used Google AI Mode (Gemini) to search for the Font and the Colour Pallet to use, though I didn't use it as rigidly as I'd hoped.  That search can be found [HERE](/Notes/what-fonts-are-used-in-Start-Trek-TNG-Computers_Google-Search.pdf)
+
+### Image References
+Self Sealing Stem Bolts: https://wiki.fed-space.com/index.php?title=Self-sealing_stem_bolt
+
+Transporter: https://www.cbr.com/star-trek-tos-enterprise-multiple-transporter-rooms/
+
+Studio Execs: https://www.imdb.com/title/tt1118051/mediaviewer/rm4193435136/?ref_=tt_ph_2
+
+Colourful Bridge: https://www.reddit.com/r/GalaxyS23Ultra/comments/1ds4023/this_camera_is_really_amazing/
+
+Enterpise Crew: https://memory-beta.fandom.com/wiki/USS_Enterprise_(NCC-1701)_personnel
+
+Geordi Engineering: https://screenrant.com/star-trek-geordi-la-forge-complete-timeline/
+
+Board Room: http://steveboese.squarespace.com/journal/2015/2/2/i-dont-want-to-work-with-companies-i-want-to-work-with-peopl.html;jsessionid=DD7DAB107068EE6647376468B37BFE2A.v5-web018
+
+
+Star Trek Engineering Logo: https://imgbin.com/png/fBE69cXG/star-trek-starfleet-command-starship-enterprise-embroidered-patch-png
+(Modified in Inkscape)
+
+enterpise Over Promellian battle cruiser: https://cygnus-x1.net/links/lcars/epsd-TNG3-6.php
+
+Star Trek TNG Crew: https://memory-alpha.fandom.com/wiki/Star_Trek:_The_Next_Generation?file=Star_Trek_TNG_cast.jpg
+
+Millenium Falcon Crew: https://www.imdb.com/title/tt0076759/mediaviewer/rm2032570112/?ref_=ttmi_mi_16_2
+
+The original Series crew laughing on the bridge:   https://www.denofgeek.com/tv/star-trek-why-we-cant-wait-to-go-back-to-the-24th-century/
+
+### Sample code utilised
+From the Courses and Lectures we had during the Module, it made sense to me to re-use some of the code we had developed through tutorials and follow-throughs and modify them to fit the use case of my Star Trek Homage site.
+The following was where I utilised these samples in my website:
+
+#### Module 1 Unit 9
+The structure for the cards on the home page.
+The structure used is:
+
+```plantuml
+@startmindmap
+* Section
+** div Class=Row
+*** div Class=Column
+**** div Class=<formatting for Card>
+***** Header (Title)
+***** Paragraph (Content)
+*** div Class=Column
+**** div Class=<formatting for Card>
+***** Header (Title)
+***** Paragraph (Content)
+@endmindmap
+``` 
+#### Module 1 Unit 9
+The code and layout for the NavBar, allowing it to be resized.
+
+#### Module 1 Unit 7
+To double check the implementation of screen breakpoints.
+
+#### Module 1 Unit 13
+As I worked through the code for this, it satisfied a majority of the code I needed for the contact me page so I replicated this from the working model and modified this to match the site aesthetics and to include the "Who to direct your query" section
+
+Thank you for reading this long readme and I hope you found it informative and helpful, and that you log on to my homage page and enjoy the details.
+
+Live long and Prosper
+
+Alan Curley
